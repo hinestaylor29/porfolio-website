@@ -1,0 +1,12 @@
+.App{
+    font-family: 'Poppins', sans-serif;
+}
+
+.App .heading{
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+}
+
+.App p{
+    text-align: center;
+}
