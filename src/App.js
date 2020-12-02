@@ -1,10 +1,10 @@
 import './App.css';
+import Heading from "./Heading";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="heading"> Taylor Hines </h1>
-      <p> UX Designer </p>
+      < Heading />
     </div>
   );
 }
