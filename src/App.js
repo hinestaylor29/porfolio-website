@@ -1,11 +1,15 @@
 import './App.css';
+import Container from 'react-bootstrap/Container';
 import Heading from "./Heading";
+import Navbar from "./Navbar";
+
 
 function App() {
   return (
-    <div className="App">
+    <Container>
+      < Navbar />
       < Heading />
-    </div>
+    </Container>
   );
 }
 
