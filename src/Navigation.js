@@ -5,9 +5,9 @@ import "./Navigation.css";
 
 export default function Navigation(){
     return (
-    <Navbar  expand="lg" className="justify-content-end link" activeKey="/home">
-         <Navbar.Toggle />
-         <Navbar.Collapse>
+    <Navbar expand="lg" className= "justify-content-end links">
+         <Navbar.Toggle className= "justify-content-end" />
+         <Navbar.Collapse className= "justify-content-end" >
         <Nav.Item>
             <Nav.Link href="/home">
                 Portfolio
@@ -27,7 +27,7 @@ export default function Navigation(){
         </Nav.Item>
 
         <Nav.Item>
-            <Nav.Link eventKey="link-2">
+            <Nav.Link eventKey="link-3">
                 Contact
             </Nav.Link>
         </Nav.Item>
