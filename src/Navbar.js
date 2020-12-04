@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 export default function Navbar(){
     return (
-    <Nav  className="justify-content-end" activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}>
+    <Nav  className="justify-content-end link" activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}>
         <Nav.Item>
             <Nav.Link href="/home">
                 Portfolio

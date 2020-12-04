@@ -1,16 +1,4 @@
-.navbar-nav { 
-            margin-left: auto; 
-        } 
 
-.nav-item{
+.link{
     margin-right: 25px;
-}
-
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
-    padding-left: 0px;
 }
