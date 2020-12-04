@@ -1,14 +1,14 @@
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Heading from "./Heading";
-import Navbar from "./Navbar";
+import Navigation from "./Navigation";
 import Body from "./Body.js";
 
 
 function App() {
   return (
     <Container>
-      < Navbar />
+      < Navigation />
       < Heading />
       <Body />
     </Container>

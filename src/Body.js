@@ -1,22 +1,23 @@
 import React from 'react';
 import "./Body.css";
 import Media from 'react-bootstrap/Media'
+import image from './image.jpg';
 
 export default function Body(){
     return(
     
     <div className="body">
     
-    <h1> Portfolio </h1>
-        <Media>
+    <h1 className="portfolio-title"> Portfolio </h1>
+        <Media className="split-feature">
             <img
-                width={600}
-                height={600}
-                className="col-6"
-                src="holder.js/64x64"
-                alt="Generic placeholder"
+                width={400}
+                height={276}
+                className="col-4 fluid"
+                src={image}
+                alt="test image"
             />
-            <Media.Body className="col-6">
+            <Media.Body className="col-6 project-description">
                 <h5>Media Heading</h5>
                 <p>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque

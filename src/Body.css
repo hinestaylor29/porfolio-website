@@ -1,12 +1,17 @@
 .body{
     margin-top: 400px;
-    align-content: center;
-
+    margin-bottom: 200px;
 }
 
+.split-feature{
+    display: block;
+}
 
-h1{
-    text-align: center;
+.project-description{
+    padding-top: 10px;
+}
+
+.portfolio-title{
     padding-bottom: 175px;
-
+    text-align: center;
 }
