@@ -8,9 +8,9 @@ import Col from 'react-bootstrap/Col';
 export default function Body(){
     return(
     
-    <div className="body">
+    <div id="portfolio" className="body">
     
-    <h1 className="portfolio-title"> Portfolio </h1>
+    <h1 className="section-title portfolio-title"> PORTFOLIO </h1>
         <Row className="split-feature-1">
         <Col xs={12} md={8} lg={7} >
             <img

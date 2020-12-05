@@ -1,3 +1,23 @@
 .resume{
     margin-top: 300px;
 }
+
+.section-title{
+    text-align: center;
+}
+
+.resume-description{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 28px;
+}
+
+.resume h6 a{
+    text-decoration: none;
+    color: #6D6875;
+}
+
+.resume h6 a:hover{
+    text-decoration: none;
+    color: #B5838D;
+}

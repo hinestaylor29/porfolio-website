@@ -12,8 +12,9 @@
     margin: 20px 0px 20px 0px;
 }
 
-h1{
+.name{
 font-family: 'Poppins', sans-serif;
 color: #B5838D;
-font-weight: bolder;
+font-weight: 700;
+letter-spacing: .2rem;
 }

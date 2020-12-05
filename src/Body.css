@@ -16,7 +16,16 @@
 
 .portfolio-title{
     padding-bottom: 175px;
-    text-align: center;
+}
+
+.section-title{
+    color: #B5838D;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.body h4{
+    color: black
 }
 
 img{

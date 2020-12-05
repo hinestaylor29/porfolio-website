@@ -5,31 +5,31 @@ import { Row } from 'react-bootstrap';
 
 export default function Coding(){
     return(
-    <div className="coding">
-        <h1> Coding Projects </h1>
+    <div className="coding" id="coding">
+        <h1 className="section-title" > CODING PROJECTS </h1>
         <p className="coding-description"> Lorem ipsum </p>
     <Row>
-    <Card style={{ width: '400px' }} className="card-1">
+    <card style={{ width: '400px' }} className="card-1">
             <Card.Body>
-            <Card.Title> Project Name </Card.Title>
-            <Card.Subtitle className="mb-2 text-muted"> Languages Used </Card.Subtitle>
-            <Card.Text>
+            <h5 className="card-title"> Project Name </h5>
+            <h6 className="mb-2"> Languages Used </h6>
+            <p>
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </Card.Text>
-            <Card.Link href="/">Project Link</Card.Link>
+            </p>
+            <a className="card-link" href="/">Project Link</a>
             </Card.Body>
-        </Card>
+        </card>
 
-        <Card style={{ width: '400px' }} className="card-2">
+        <card style={{ width: '400px' }} className="card-2">
             <Card.Body>
-            <Card.Title> Project Name </Card.Title>
-            <Card.Subtitle className="mb-2 text-muted"> Languages Used </Card.Subtitle>
-            <Card.Text className="card-description">
+            <h5 className="card-title"> Project Name </h5>
+            <h6 className="mb-2 text-muted"> Languages Used </h6>
+            <p className="card-description">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </Card.Text>
-            <Card.Link href="/">Project Link</Card.Link>
+            </p>
+            <a className="card-link" href="/"> Project Link </a>
             </Card.Body>
-        </Card>
+        </card>
         </Row>
     </div>
     );

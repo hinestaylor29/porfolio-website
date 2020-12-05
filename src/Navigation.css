@@ -1,4 +1,14 @@
 
 .links{
     margin-right: 25px;
+    font-weight: 500;
+}
+
+.nav-link{
+    color: #6D6875;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: #B5838D;
 }

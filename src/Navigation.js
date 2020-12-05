@@ -9,25 +9,25 @@ export default function Navigation(){
          <Navbar.Toggle className= "justify-content-end" />
          <Navbar.Collapse className= "justify-content-end" >
         <Nav.Item>
-            <Nav.Link href="/home">
+            <Nav.Link className= "nav-link" href="#portfolio">
                 Portfolio
             </Nav.Link>
         </Nav.Item>
   
         <Nav.Item>
-            <Nav.Link eventKey="link-1">
+            <Nav.Link className= "nav-link" href="#resume">
             Resume
             </Nav.Link>
         </Nav.Item>
   
         <Nav.Item>
-            <Nav.Link eventKey="link-2">
+            <Nav.Link className= "nav-link" href="#coding">
                 Coding
             </Nav.Link>
         </Nav.Item>
 
         <Nav.Item>
-            <Nav.Link eventKey="link-3">
+            <Nav.Link className= "nav-link" href="#contact">
                 Contact
             </Nav.Link>
         </Nav.Item>
