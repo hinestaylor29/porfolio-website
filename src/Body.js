@@ -12,7 +12,7 @@ export default function Body(){
     
     <h1 className="portfolio-title"> Portfolio </h1>
         <Row className="split-feature-1">
-        <Col>
+        <Col xs={12} md={8} lg={6} >
             <img
                 width={400}
                 height={276}
@@ -21,40 +21,36 @@ export default function Body(){
                 alt="test image" />
         </Col>
 
-            <Col className="col-7 project-description">
-                <h5>Media Heading</h5>
+            <Col className="project-description">
+                <h6> Kicker </h6>
+                <h4>Media Heading</h4>
                 <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                Donec lacinia congue felis in faucibus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </Col>
         </Row>
 
          <Row className="split-feature-2">
-        <Col>
+            <Col xs={12} md={8} lg={6}  className="project-description">
+                <h6> Kicker </h6>
+                <h4>Media Heading</h4>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </Col>
+
+            <Col>
             <img
                 width={400}
                 height={276}
                 className= "mx-auto d-block"
                 src={image}
                 alt="test image 2" />
-        </Col>
-
-            <Col className="col-7 project-description">
-                <h5>Media Heading</h5>
-                <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                Donec lacinia congue felis in faucibus.
-                </p>
             </Col>
         </Row>
 
          <Row className="split-feature-3">
-        <Col>
+        <Col xs={12} md={8} lg={6} >
             <img
                 width={400}
                 height={276}
@@ -63,13 +59,11 @@ export default function Body(){
                 alt="test image 3" />
         </Col>
 
-            <Col className="col-7 project-description">
-                <h5>Media Heading</h5>
+            <Col className="project-description">
+                <h6> Kicker </h6>
+                <h4>Media Heading</h4>
                 <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-                ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-                tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                Donec lacinia congue felis in faucibus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
             </Col>
         </Row>
