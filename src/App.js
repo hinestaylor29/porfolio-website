@@ -1,9 +1,11 @@
 import './App.css';
 import Container from 'react-bootstrap/Container';
-import Heading from "./Heading";
 import Navigation from "./Navigation";
-import Body from "./Body.js";
-import Coding from "./Coding.js";
+import Heading from "./Heading";
+import Body from "./Body";
+import Resume from "./Resume";
+import Coding from "./Coding";
+import Contact from "./Contact";
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       < Navigation />
       < Heading />
       <Body />
+      <Resume />
       <Coding />
+      < Contact />
     </Container>
   );
 }
