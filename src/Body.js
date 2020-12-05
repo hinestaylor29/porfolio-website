@@ -2,6 +2,8 @@ import React from 'react';
 import "./Body.css";
 import Media from 'react-bootstrap/Media'
 import image from './image.jpg';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function Body(){
     return(
@@ -9,15 +11,17 @@ export default function Body(){
     <div className="body">
     
     <h1 className="portfolio-title"> Portfolio </h1>
-        <Media className="split-feature-1s">
+        <Row className="split-feature-1">
+        <Col>
             <img
                 width={400}
                 height={276}
-                className= "fluid"
+                className= "mx-auto d-block"
                 src={image}
-                alt="test image"
-            />
-            <Media.Body className="col-6 project-description">
+                alt="test image" />
+        </Col>
+
+            <Col className="col-7 project-description">
                 <h5>Media Heading</h5>
                 <p>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
@@ -25,12 +29,20 @@ export default function Body(){
                 tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
                 Donec lacinia congue felis in faucibus.
                 </p>
-            </Media.Body>
-        </Media>
+            </Col>
+        </Row>
 
+         <Row className="split-feature-2">
+        <Col>
+            <img
+                width={400}
+                height={276}
+                className= "mx-auto d-block"
+                src={image}
+                alt="test image 2" />
+        </Col>
 
-        <Media className="split-feature-2">
-             <Media.Body className="col-6 project-description">
+            <Col className="col-7 project-description">
                 <h5>Media Heading</h5>
                 <p>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
@@ -38,26 +50,20 @@ export default function Body(){
                 tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
                 Donec lacinia congue felis in faucibus.
                 </p>
-            </Media.Body>
-            
-            <img
-                width={400}
-                height={276}
-                className="fluid"
-                src={image}
-                alt="test image 2"
-            />
-        </Media>
+            </Col>
+        </Row>
 
-        <Media className="split-feature-3">
+         <Row className="split-feature-3">
+        <Col>
             <img
                 width={400}
                 height={276}
-                className="fluid"
+                className= "mx-auto d-block"
                 src={image}
-                alt="test image 3"
-            />
-            <Media.Body className="col-6 project-description">
+                alt="test image 3" />
+        </Col>
+
+            <Col className="col-7 project-description">
                 <h5>Media Heading</h5>
                 <p>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
@@ -65,8 +71,8 @@ export default function Body(){
                 tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
                 Donec lacinia congue felis in faucibus.
                 </p>
-            </Media.Body>
-        </Media>
+            </Col>
+        </Row>
         
     </div>
     )
