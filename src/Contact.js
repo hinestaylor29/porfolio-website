@@ -12,7 +12,7 @@ export default function Contact(){
         </ul>
 
         <footer>
-            ⌨️ Coded by Taylor Hines, using React and  <a href="/"> open sourced </a>
+            ⌨️ Coded by Taylor Hines, using React and  <a href="https://github.com/hinestaylor29/porfolio-website" rel="noreferrer" target="_blank"> open sourced </a>
         </footer>
         </div>
     );

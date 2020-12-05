@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Body.css";
-import Media from 'react-bootstrap/Media'
 import image from './image.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -12,7 +11,7 @@ export default function Body(){
     
     <h1 className="section-title portfolio-title"> PORTFOLIO </h1>
         <Row className="split-feature-1">
-        <Col xs={12} md={8} lg={7} >
+        <Col xs={12} md={8} lg={5} >
             <img
                 width={400}
                 height={276}

@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import "./Navigation.css";
 
 export default function Navigation(){
+    
     return (
     <Navbar expand="lg" className= "justify-content-end links">
          <Navbar.Toggle className= "justify-content-end" />
