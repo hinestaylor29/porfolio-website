@@ -3,12 +3,6 @@
     display: block;
 }
 
-h1{
-font-family: 'Poppins', sans-serif;
-color: #B5838D;
-font-weight: bolder;
-}
-
 .name-title{
     margin-top: 200px;
     margin-bottom: 0px;
@@ -16,4 +10,10 @@ font-weight: bolder;
 
 .title{
     margin: 20px 0px 20px 0px;
+}
+
+h1{
+font-family: 'Poppins', sans-serif;
+color: #B5838D;
+font-weight: bolder;
 }
