@@ -6,9 +6,9 @@ export default function Contact(){
         <div className="contact" id="contact">
         <h1 className="section-title"> CONTACT </h1>
         <ul className="contact-links">
-            <li> <a id="link" href="/"> LinkedIn </a></li>
-            <li> <a id="link" href="/"> Behance </a></li>
-            <li> <a id="link" href="/"> Email </a></li>
+            <li> <a id="link" href="https://www.linkedin.com/in/taylor-hines/" rel="noreferrer" target="_blank"> LinkedIn </a></li>
+            <li> <a id="link" href="https://www.behance.net/taylorhines2?isa0=1" rel="noreferrer" target="_blank"> Behance </a></li>
+            <li> <a id="link" href="mailto:hinestaylor29@gmail.com"> Email Me </a></li>
         </ul>
 
         <footer>
