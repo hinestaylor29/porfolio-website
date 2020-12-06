@@ -9,11 +9,13 @@
 .contact-links li{
     list-style-type: none;
     text-align: center;
-    padding-top: 15px;
+    display: inline;
+    padding: 15px 25px 15px 25px;
 }
 
 ul{
-    padding: 0px 0px 0px 0px;
+text-align: center;
+padding-left: 0px;
 }
 
 ul li a{
