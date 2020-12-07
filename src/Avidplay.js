@@ -6,15 +6,14 @@ import dolbyPortals from "./dolbyPortals.png";
 import avidPlayFrame1 from "./avidPlayFrame1.png";
 import avidplayFrame2 from "./avidplayFrame2.png";
 import avidplayFrame3 from "./avidplayFrame3.png";
-
-
 import bedroomRecordingStudio from "./bedroomRecordingStudio.png";
 
 import "./Avidplay.css";
 
 export default function Avidplay(){
+    
     return(
-    <Container>
+    <Container className="avidplay">
         <div className="avidplay-heading">
             <img src={dolbyPortals} alt="Dolby Brand Logo" width={64} height={45} />
             <h1> Dolby x AvidPlay </h1>
@@ -40,8 +39,8 @@ export default function Avidplay(){
 
             <Col>
                 <h5> Role </h5>
-                <p> <strong>Digital Experience Intern </strong> <br />
-                Responsibilities - Content strategy, page build, UX design and flow </p>
+                <p> Digital Experience Intern </p>
+                <p>Responsibilities - Content strategy, page build, UX design and flow </p>
             </Col>
         </Row>
 
@@ -82,7 +81,7 @@ export default function Avidplay(){
 
         <div className="page-objective">
         <h2>Page Objective</h2>
-        <h4> To get the users like Emma to try AvidPlay <br/>
+        <h4> To get the users like Emma to try AvidPlay
             using the 30-day free trial link. </h4>
         </div>
 
@@ -112,7 +111,7 @@ export default function Avidplay(){
         </Row>
         </div>
 
-        <Row className= "d-flex flex-row-reverse align-items-center">
+        <Row className= "d-flex flex-row-reverse align-items-center frame-2">
         <Col>
                 <img
                 width={400}
@@ -139,7 +138,7 @@ export default function Avidplay(){
             </Col>
         </Row>
 
-        <Row className= "d-flex align-items-center">
+        <Row className= "d-flex align-items-center frame-3">
         <Col>
                 <img
                 width={400}
