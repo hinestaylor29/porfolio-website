@@ -11,3 +11,42 @@
 .avidplay-heading p{
     margin-top: 10px;
 }
+
+.user-persona{
+    margin-top: 150px;
+}
+
+.user-persona h5{
+    margin-top: 50px;
+}
+
+.user-persona p{
+    margin-top: 25px
+}
+
+.project-context{
+    margin-top: 150px;
+}
+
+.page-objective{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.methodology{
+    margin-top: 150px;
+}
+
+.methodology h2{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.page-objective h2{
+    margin-bottom: 40px;
+}
+
+.page-objective h4{
+    font-weight: 300;
+}
