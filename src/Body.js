@@ -22,13 +22,13 @@ export default function Body(){
         </Col>
 
             <Col className="project-description">
-                <h6> Kicker </h6>
-                <h4>Media Heading</h4>
+                <h6> UX//Content Strategy </h6>
+                <h4>Dolby x AvidPlay</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lead UX and content strategy for co-branded marketing campaign for the launch of new Dolby enabled music mixing tool.
                 </p>
-                <Link to={"/Avidplay"}> 
-                    Learn More 
+                <Link to={"/Avidplay"} className="avidplay-link"> 
+                    See More 
                 </Link> 
             </Col>
         </Row>
@@ -45,7 +45,7 @@ export default function Body(){
 
             <Col className="project-description">
                 <h6> Kicker </h6>
-                <h4>Media Heading</h4>
+                <h4> Lorem Ipsum </h4>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>

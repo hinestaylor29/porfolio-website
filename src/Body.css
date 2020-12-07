@@ -14,6 +14,10 @@
     padding-top: 10px;
 }
 
+.project-description h4{
+    padding-top: 5px;
+}
+
 .portfolio-title{
     padding-bottom: 175px;
 }
@@ -31,4 +35,13 @@
 img{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+}
+
+.avidplay-link{
+    color: black;
+}
+
+.avidplay-link:hover{
+    color: #B5838D;
+    text-decoration: none;
 }

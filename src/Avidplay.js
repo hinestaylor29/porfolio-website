@@ -90,15 +90,15 @@ export default function Avidplay(){
         <Row className= "d-flex align-items-center">
         <Col>
                 <img
-                width={400}
-                height={558}
+                width={500}
+                height={697}
                 className= "mx-auto d-block"
                 src={avidPlayFrame1}
                 alt="test" />
         </Col>
 
             <Col>
-                <div id="frame-1">
+                <div sm={true} md={true} id="frame-1">
                     <p> Product quote from an experienced and well known
                         producer shows credibility and increases curiosity of the target user. 
                         Users see that an established producer endorses this service so they 
@@ -114,15 +114,15 @@ export default function Avidplay(){
         <Row className= "d-flex flex-row-reverse align-items-center frame-2">
         <Col>
                 <img
-                width={400}
-                height={535}
+                width={500}
+                height={669}
                 className= "mx-auto d-block"
                 src={avidplayFrame2}
                 alt="test" />
         </Col>
 
             <Col>
-                <div id="frame-2">
+                <div sm={true} md={true} id="frame-2">
                     <p> List of three main benefits of AvidPlay for an indie artist. 
                         The target user will want to scroll to learn deeper details of the service. 
                         The Dolby Atmos Music story is embedded into this section, 
@@ -141,15 +141,15 @@ export default function Avidplay(){
         <Row className= "d-flex align-items-center frame-3">
         <Col>
                 <img
-                width={400}
-                height={503}
+                width={500}
+                height={629}
                 className= "mx-auto d-block"
                 src={avidplayFrame3}
                 alt="test" />
         </Col>
 
             <Col>
-                <div id="frame-3">
+                <div  sm={true} md={true} id="frame-3">
                     <p> Dolby Atmos Music education link out offers a 
                         continuation of the user journey to find out more 
                         about Dolby Atmos in music production. </p>
