@@ -14,9 +14,8 @@ export default function Body(){
     return(
     
     <div id="portfolio" className="body">
-    
+    <Fade bottom>
     <h1 className="section-title portfolio-title"> PORTFOLIO </h1>
-        <Fade bottom>
         <Row className="split-feature-1 d-flex align-items-center">
         <Col >
             <img
