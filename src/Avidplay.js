@@ -6,9 +6,8 @@ import dolbyPortals from "./dolbyPortals.png";
 import avidPlayFrame1 from "./avidPlayFrame1.png";
 import avidplayFrame2 from "./avidplayFrame2.png";
 import avidplayFrame3 from "./avidplayFrame3.png";
-
+import Fade from 'react-reveal/Fade';
 import bedroomRecordingStudio from "./bedroomRecordingStudio.png";
-
 import "./Avidplay.css";
 
 export default function Avidplay(){
@@ -22,6 +21,7 @@ export default function Avidplay(){
             <p> Case Study by Taylor Hines </p>
         </div>
 
+        <Fade bottom>
         <Row className="project-context d-flex justify-content-around">
             <Col sm={true} md={true}>
                 <h5> Overview </h5>
@@ -44,7 +44,10 @@ export default function Avidplay(){
                 <p>Responsibilities - Content strategy, page build, UX design and flow </p>
             </Col>
         </Row>
+        </Fade>
 
+
+        <Fade bottom>
          <Row className="flex-row-reverse user-persona d-flex align-items-center">
         <Col >
             <img
@@ -79,13 +82,17 @@ export default function Avidplay(){
             </div>
             </Col>
         </Row>
+        </Fade>
 
+        <Fade bottom>
         <div className="page-objective">
         <h2>Page Objective</h2>
         <h4> To get the users like Emma to try AvidPlay
             using the 30-day free trial link. </h4>
         </div>
+        </Fade>
 
+        <Fade bottom>
         <div className="methodology" >
         <h2> Methodology and Page Structure </h2>
         <Row className= "d-flex align-items-center">
@@ -111,7 +118,9 @@ export default function Avidplay(){
             </Col>
         </Row>
         </div>
+        </Fade>
 
+        <Fade bottom>
         <Row className= "d-flex flex-row-reverse align-items-center frame-2">
         <Col>
                 <img
@@ -137,7 +146,9 @@ export default function Avidplay(){
                 </div>
             </Col>
         </Row>
+        </Fade>
 
+        <Fade bottom>
         <Row className= "d-flex align-items-center frame-3">
         <Col>
                 <img
@@ -158,8 +169,11 @@ export default function Avidplay(){
                 </div>
             </Col>
         </Row>
+        </Fade>
 
         <p className="live-page">  💻 See the live page <a  rel="noreferrer" target="_blank" href="https://professional.dolby.com/music/avidplay/"> here </a> </p>
+        
+        <div className="back-home"> <a href="/" > Back to home </a> </div>
 
     </Container>
     );

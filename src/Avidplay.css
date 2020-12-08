@@ -87,6 +87,20 @@
 
 }
 
+.back-home{
+       text-align: center;
+}
+
+.back-home a{
+    text-decoration: none;
+    color: #6D6875;
+}
+
+.back-home a:hover{
+    color: #5F59A7;
+    text-decoration: none;
+}
+
 #frame-1 p{
     margin-top: 20px;
 }

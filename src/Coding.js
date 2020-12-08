@@ -2,9 +2,12 @@ import React from 'react';
 import "./Coding.css";
 import Card from 'react-bootstrap/Card';
 import { Row } from 'react-bootstrap';
+import Fade from 'react-reveal/Fade';
+
 
 export default function Coding(){
     return(
+    <Fade bottom>
     <div className="coding" id="coding">
         <h1 className="section-title" > CODING PROJECTS </h1>
         <p className="coding-description col-10"> 💡 While staying inside during quarantine, 
@@ -34,5 +37,6 @@ export default function Coding(){
         </card>
         </Row>
     </div>
+    </Fade>
     );
 }

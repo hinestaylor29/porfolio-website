@@ -10,8 +10,6 @@ import Contact from "./Contact";
 import Avidplay from './Avidplay';
 import ScrollToTop from './ScrollToTop';
 
-
-
 function App() {
   return (
     <Router>

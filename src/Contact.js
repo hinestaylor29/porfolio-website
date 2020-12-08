@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faBehance } from '@fortawesome/free-brands-svg-icons';
 
+
 export default function Contact(){
     return(
         <div className="contact flex" id="contact">

@@ -7,6 +7,8 @@ import impossibleBurger from "./impossibleBurger.jpg";
 import thoughtcloud from "./thoughtcloud.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Fade from 'react-reveal/Fade';
+
 
 export default function Body(){
     return(
@@ -14,6 +16,7 @@ export default function Body(){
     <div id="portfolio" className="body">
     
     <h1 className="section-title portfolio-title"> PORTFOLIO </h1>
+        <Fade bottom>
         <Row className="split-feature-1 d-flex align-items-center">
         <Col >
             <img
@@ -35,7 +38,9 @@ export default function Body(){
                 </Link> 
             </Col>
         </Row>
+        </Fade>
 
+        <Fade bottom>
          <Row className="split-feature-2 flex-row-reverse d-flex align-items-center">
             <Col>
             <img
@@ -54,8 +59,11 @@ export default function Body(){
                 <a className="case-study-link" href={impossibleFoodsPresentation} target="_blank" rel="noreferrer"> Read About It 🍔 </a>
             </Col>
         </Row>
+        </Fade >
 
-         <Row className="split-feature-3 d-flex align-items-center">
+
+        <Fade bottom>
+        <Row className="split-feature-3 d-flex align-items-center">
         <Col >
             <img
                 width={400}
@@ -72,6 +80,7 @@ export default function Body(){
                     My work at Thoughtcloud includes UX/UI design, developing user flows, iterating on low fidelity and high fidelity designs, and collaborating with the team to create new features for the platform. </p>
             </Col>
         </Row>
+        </Fade> 
         
     </div>
     )
