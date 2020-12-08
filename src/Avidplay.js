@@ -6,6 +6,7 @@ import dolbyPortals from "./dolbyPortals.png";
 import avidPlayFrame1 from "./avidPlayFrame1.png";
 import avidplayFrame2 from "./avidplayFrame2.png";
 import avidplayFrame3 from "./avidplayFrame3.png";
+
 import bedroomRecordingStudio from "./bedroomRecordingStudio.png";
 
 import "./Avidplay.css";
@@ -33,8 +34,8 @@ export default function Avidplay(){
 
             <Col>
                 <h5> Objective </h5>
-                <p> To educate an indie artist on What AvidPlay is, 
-                    Why it is better, and How they can get it.  </p>
+                <p> To educate an indie artist on <em>What</em> AvidPlay is, 
+                    <em>Why</em> it is better, and <em>How</em> they can get it.  </p>
             </Col>
 
             <Col>
@@ -70,8 +71,8 @@ export default function Avidplay(){
                 She’s noticed her music is missing something but doesn’t know exactly what. 
                 </p>
                 
-                <h5>Pain Point</h5>
-                <p>
+                <h5 className="pain-point">Pain Point</h5>
+                <p className="pain-point">
                 Emma is unaware of what AvidPlay and Dolby Atmos are and how AvidPlay and Dolby Atmos 
                 can benefit her as an indie musician and take her music to the next level.
                 </p>
@@ -99,12 +100,12 @@ export default function Avidplay(){
 
             <Col>
                 <div sm={true} md={true} id="frame-1">
-                    <p> Product quote from an experienced and well known
+                    <p> A product quote from an experienced and well known
                         producer shows credibility and increases curiosity of the target user. 
                         Users see that an established producer endorses this service so they 
                         will want to learn more about it. </p>
                 
-                    <p> A visual component to give high level explanation of the service. 
+                    <p> I included a visual component, in this case a video, to give high level explanation of the service. 
                         This doesn’t require a lot of cognitive attention from the user. </p>
                 </div>
             </Col>
@@ -123,17 +124,16 @@ export default function Avidplay(){
 
             <Col>
                 <div sm={true} md={true} id="frame-2">
-                    <p> List of three main benefits of AvidPlay for an indie artist. 
-                        The target user will want to scroll to learn deeper details of the service. 
-                        The Dolby Atmos Music story is embedded into this section, 
+                    <p> This section details the three main benefits of AvidPlay for an indie artist. 
+                        The Dolby Atmos Music story is also baked into this section, 
                         as it is apart of the Why AvidPlay is a differentiator 
                         when it comes to DIY music distribution. </p>
                 
-                    <p> Artist testimonials build on credibility 
-                        and triggers more intrigue about what Dolby Atmos Music is.</p>
+                    <p> The team and I included a few more artist testimonials to build on credibility 
+                        and trigger more intrigue about what Dolby Atmos Music is.</p>
 
-                    <p>AvidPlay education and main CTA - This completes the core goal for the user, 
-                    now they have all of the information on What, Why, and How they can try the service. </p>
+                    <p> Finally, more AvidPlay education and the main CTA - This completes the core goal for the user, 
+                    at this point on the page they have all of the information on the What, Why, and How of AvidPlay and Dolby Atmos Music. </p>
                 </div>
             </Col>
         </Row>
@@ -150,14 +150,16 @@ export default function Avidplay(){
 
             <Col>
                 <div  sm={true} md={true} id="frame-3">
-                    <p> Dolby Atmos Music education link out offers a 
+                    <p> Here Dolby Atmos Music can shine. We provided an education feature and link out that offers a 
                         continuation of the user journey to find out more 
-                        about Dolby Atmos in music production. </p>
+                        about Dolby Atmos in music production and keep them in the Dolby ecosystem. </p>
                 
-                    <p> Email sign up form acts as a secondary CTA of the page. </p>
+                    <p> To wrap up the page, an email sign up form to gather leads for future camapigns. </p>
                 </div>
             </Col>
         </Row>
+
+        <p className="live-page">  💻 See the live page <a  rel="noreferrer" target="_blank" href="https://professional.dolby.com/music/avidplay/"> here </a> </p>
 
     </Container>
     );

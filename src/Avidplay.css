@@ -6,6 +6,7 @@
 .avidplay-heading h1{
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #5F59A7;
 }
 
 .avidplay-heading p{
@@ -22,6 +23,10 @@
 
 .user-persona p{
     margin-top: 25px
+}
+
+.pain-point{
+    color: #5F59A7;
 }
 
 .project-context{
@@ -49,14 +54,37 @@
 .methodology h2{
     margin-bottom: 100px;
     text-align: center;
+    color: #5F59A7;
+
 }
 
 .page-objective h2{
     margin-bottom: 40px;
+    color: #5F59A7;
+
 }
 
 .page-objective h4{
     font-weight: 300;
+}
+
+.live-page{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.live-page a{
+    text-decoration: none;
+    color: #6D6875;
+
+}
+
+.live-page a:hover{
+    color: #5F59A7;
+    text-decoration: none;
+
 }
 
 #frame-1 p{

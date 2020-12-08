@@ -6,6 +6,11 @@
     margin-top: 125px;
 }
 
+.split-feature-2 img{
+    box-shadow: -1px 2px 10px 3px rgb(189, 189, 189, .5);
+    border-radius: 5px;
+}
+
 .split-feature-3{
     margin-top: 125px;
 }
@@ -28,6 +33,19 @@
     letter-spacing: .2rem;
 }
 
+.case-study-link{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.case-study-link:hover{
+    color: #B5838D;
+    text-decoration: none;
+    
+}
+
 .body h4{
     color: black
 }
@@ -35,13 +53,4 @@
 img{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-}
-
-.avidplay-link{
-    color: black;
-}
-
-.avidplay-link:hover{
-    color: #B5838D;
-    text-decoration: none;
 }
