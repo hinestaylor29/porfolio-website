@@ -16,7 +16,7 @@ export default function Coding(){
             <h5 className="card-title"> Weather App </h5>
             <h6 className="mb-2"> HTML, CSS, Vanilla JavaScript, Bootstrap </h6>
             <p className="card-description">
-                 Built a functional forecasting app using tools learned in coding workshop which includes utilizing API calls.
+                 Built a functional forecasting app using tools learned in workshop which includes utilizing API calls.
             </p>
             <a className="card-link" href="https://zen-williams-e221d2.netlify.app/" target="_blank" rel="noreferrer"> Check it out 🌦 </a>
             </Card.Body>
@@ -25,9 +25,9 @@ export default function Coding(){
         <card style={{ width: '400px' }} className="card-2">
             <Card.Body>
             <h5 className="card-title"> React Weather App </h5>
-            <h6 className="mb-2 text-muted"> HTML, CSS, JavaScript, Bootstrap, React </h6>
+            <h6 className="mb-2 text-muted"> HTML, CSS, React </h6>
             <p className="card-description">
-                 Improved weather app built in previous workshop by implementing React and other tools learned in coding workshop.
+                 Improved weather app built in previous workshop by implementing React and other tools learned during workshop.
             </p>
             <a className="card-link" href="https://amazing-neumann-ba2ef4.netlify.app/" target="_blank" rel="noreferrer"> Take a peek 👀 </a>
             </Card.Body>

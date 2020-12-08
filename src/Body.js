@@ -66,7 +66,7 @@ export default function Body(){
         </Col>
 
             <Col className="project-description">
-                <h6> UX/UI Designer//Product Designer </h6>
+                <h6> UX UI Designer//Product Designer </h6>
                 <h4>Coming soon: thoughtcloud</h4>
                 <p>
                     My work at Thoughtcloud includes UX/UI design, developing user flows, iterating on low fidelity and high fidelity designs, and collaborating with the team to create new features for the platform. </p>

@@ -14,7 +14,7 @@ import "./Avidplay.css";
 export default function Avidplay(){
     
     return(
-    <Container className="avidplay">
+    <Container className="avidplay flex">
         <div className="avidplay-heading">
             <img src={dolbyPortals} alt="Dolby Brand Logo" width={64} height={45} />
             <h1> Dolby x AvidPlay </h1>
@@ -91,8 +91,8 @@ export default function Avidplay(){
         <Row className= "d-flex align-items-center">
         <Col>
                 <img
-                width={500}
-                height={697}
+                width={400}
+                height={558}
                 className= "mx-auto d-block"
                 src={avidPlayFrame1}
                 alt="test" />
@@ -115,8 +115,8 @@ export default function Avidplay(){
         <Row className= "d-flex flex-row-reverse align-items-center frame-2">
         <Col>
                 <img
-                width={500}
-                height={669}
+                width={400}
+                height={535}
                 className= "mx-auto d-block"
                 src={avidplayFrame2}
                 alt="test" />
@@ -141,8 +141,8 @@ export default function Avidplay(){
         <Row className= "d-flex align-items-center frame-3">
         <Col>
                 <img
-                width={500}
-                height={629}
+                width={400}
+                height={503}
                 className= "mx-auto d-block"
                 src={avidplayFrame3}
                 alt="test" />

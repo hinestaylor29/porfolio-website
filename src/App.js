@@ -8,16 +8,19 @@ import Resume from "./Resume";
 import Coding from "./Coding";
 import Contact from "./Contact";
 import Avidplay from './Avidplay';
+import ScrollToTop from './ScrollToTop';
 
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/Avidplay" component={Avidplay}/>
       </Switch>
+      </ScrollToTop>
     </Router>
   );
 }
