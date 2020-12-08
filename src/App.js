@@ -23,7 +23,7 @@ function App() {
 }
 
 const Home = () => (
-  <Container>
+  <Container className="flex">
       < Navigation />
       < Heading />
       <Body />

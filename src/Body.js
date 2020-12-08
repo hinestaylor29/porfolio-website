@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Body.css";
-import image from './image.jpg';
 import avidplayMockupResized from "./avidplayMockupResized.png";
 import impossibleFoodsPresentation from "./impossibleFoodsPresentation.pdf";
 import impossibleBurger from "./impossibleBurger.jpg";
@@ -18,8 +17,8 @@ export default function Body(){
         <Row className="split-feature-1 d-flex align-items-center">
         <Col >
             <img
-                width={600}
-                height={344}
+                width={400}
+                height={229}
                 className= "mx-auto d-block"
                 src={avidplayMockupResized}
                 alt="Image of website on a Macbook and an iPhone" />
@@ -40,8 +39,8 @@ export default function Body(){
          <Row className="split-feature-2 flex-row-reverse d-flex align-items-center">
             <Col>
             <img
-                width={500}
-                height={333}
+                width={400}
+                height={267}
                 className= "mx-auto d-block"
                 src={impossibleBurger}
                 alt="Image of burgers made from the Impossible Burger meat on a vibrant background" />
@@ -59,8 +58,8 @@ export default function Body(){
          <Row className="split-feature-3 d-flex align-items-center">
         <Col >
             <img
-                width={500}
-                height={269}
+                width={400}
+                height={215}
                 className= "mx-auto d-block"
                 src={thoughtcloud}
                 alt="test 3" />
