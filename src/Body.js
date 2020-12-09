@@ -23,7 +23,7 @@ export default function Body(){
                 height={229}
                 className= "mx-auto d-block"
                 src={avidplayMockupResized}
-                alt="Image of website on a Macbook and an iPhone" />
+                alt="Website on a Macbook and an iPhone" />
         </Col>
 
             <Col className="project-description">
@@ -47,7 +47,7 @@ export default function Body(){
                 height={267}
                 className= "mx-auto d-block"
                 src={impossibleBurger}
-                alt="Image of burgers made from the Impossible Burger meat on a vibrant background" />
+                alt="Burgers made from the Impossible Burger meat on a vibrant background" />
             </Col>
 
             <Col className="project-description">
