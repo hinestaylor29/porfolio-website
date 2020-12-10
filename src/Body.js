@@ -19,8 +19,8 @@ export default function Body(){
         <Row className="split-feature-1 d-flex align-items-center">
         <Col >
             <img
-                width={400}
-                height={229}
+                width={350}
+                height={201}
                 className= "mx-auto d-block"
                 src={avidplayMockupResized}
                 alt="Website on a Macbook and an iPhone" />
@@ -43,8 +43,8 @@ export default function Body(){
          <Row className="split-feature-2 flex-row-reverse d-flex align-items-center">
             <Col>
             <img
-                width={400}
-                height={267}
+                width={350}
+                height={233}
                 className= "mx-auto d-block"
                 src={impossibleBurgerResized}
                 alt="Burgers made from the Impossible Burger meat on a vibrant background" />

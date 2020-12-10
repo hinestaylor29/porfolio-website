@@ -98,8 +98,8 @@ export default function Avidplay(){
         <Row className= "d-flex align-items-center">
         <Col>
                 <img
-                width={400}
-                height={558}
+                width={300}
+                height={418}
                 className= "mx-auto d-block"
                 src={avidPlayFrame1}
                 alt="test" />
@@ -124,8 +124,8 @@ export default function Avidplay(){
         <Row className= "d-flex flex-row-reverse align-items-center frame-2">
         <Col>
                 <img
-                width={400}
-                height={535}
+                width={300}
+                height={401}
                 className= "mx-auto d-block"
                 src={avidplayFrame2}
                 alt="test" />
@@ -152,8 +152,8 @@ export default function Avidplay(){
         <Row className= "d-flex align-items-center frame-3">
         <Col>
                 <img
-                width={400}
-                height={503}
+                width={300}
+                height={377}
                 className= "mx-auto d-block"
                 src={avidplayFrame3}
                 alt="test" />

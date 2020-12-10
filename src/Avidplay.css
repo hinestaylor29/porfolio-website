@@ -14,7 +14,7 @@
 }
 
 .user-persona{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .user-persona h5{
@@ -78,13 +78,11 @@
 .live-page a{
     text-decoration: none;
     color: #6D6875;
-
 }
 
 .live-page a:hover{
     color: #5F59A7;
     text-decoration: none;
-
 }
 
 .back-home{
