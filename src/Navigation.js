@@ -6,7 +6,7 @@ import "./Navigation.css";
 export default function Navigation(){
     
     return (
-    <Navbar expand="lg" className= "justify-content-end links">
+    <Navbar collapseOnSelect expand="lg" className= "justify-content-end links">
          <Navbar.Toggle className= "justify-content-end" />
          <Navbar.Collapse className= "justify-content-end" >
         <Nav.Item>
@@ -33,6 +33,6 @@ export default function Navigation(){
             </Nav.Link>
         </Nav.Item>
         </Navbar.Collapse>
-</Navbar> 
+</Navbar>
     );
 }

@@ -65,8 +65,8 @@ export default function Body(){
         <Row className="split-feature-3 d-flex align-items-center">
         <Col >
             <img
-                width={400}
-                height={215}
+                width={350}
+                height={188}
                 className= "mx-auto d-block"
                 src={thoughtcloud}
                 alt="test 3" />

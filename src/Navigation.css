@@ -2,6 +2,7 @@
 .links{
     margin-right: 25px;
     font-weight: 500;
+    display: block;
 }
 
 .nav-link{
