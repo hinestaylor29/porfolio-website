@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Body.css";
 import avidplayMockupResized from "./avidplayMockupResized.png";
 import impossibleFoodsPresentation from "./impossibleFoodsPresentation.pdf";
-import impossibleBurger from "./impossibleBurger.jpg";
+import impossibleBurgerResized from "./impossibleBurgerResized.jpg";
 import thoughtcloud from "./thoughtcloud.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -46,7 +46,7 @@ export default function Body(){
                 width={400}
                 height={267}
                 className= "mx-auto d-block"
-                src={impossibleBurger}
+                src={impossibleBurgerResized}
                 alt="Burgers made from the Impossible Burger meat on a vibrant background" />
             </Col>
 
