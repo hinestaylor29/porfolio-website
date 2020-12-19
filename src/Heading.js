@@ -6,7 +6,7 @@ return(
     <div className="col-12 name-title">
         <h1 className="name"> TAYLOR HINES </h1>
         <p className="title"> Junior UX Designer </p>
-        <p> Currently working at Dolby Labs in San Fransico. </p>
+        <p> Currently working at Dolby Labs in San Francisco. </p>
     </div>
 );
 }
