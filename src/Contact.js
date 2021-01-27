@@ -8,7 +8,7 @@ import { faBehance } from '@fortawesome/free-brands-svg-icons';
 export default function Contact(){
     return(
         <div className="contact flex" id="contact">
-        <h1 className="section-title"> LET'S CONNECT </h1>
+        <h1 className="section-title"> Let's connect </h1>
         <ul className="contact-links">
             <li> <a id="link" href="https://www.linkedin.com/in/taylor-hines/" rel="noreferrer" target="_blank"> <FontAwesomeIcon className="fa-2x" icon={faLinkedinIn} /> </a></li>
             <li> <a id="link" href="https://www.behance.net/taylorhines2?isa0=1" rel="noreferrer" target="_blank"> <FontAwesomeIcon className="fa-2x" icon={faBehance} /> </a></li>

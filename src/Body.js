@@ -4,6 +4,8 @@ import "./Body.css";
 import avidplayMockupResized from "./avidplayMockupResized.png";
 import impossibleFoodsPresentation from "./impossibleFoodsPresentation.pdf";
 import impossibleBurgerResized from "./impossibleBurgerResized.jpg";
+import claraCover from "./clara_cover.png";
+
 import thoughtcloud from "./thoughtcloud.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,12 +17,32 @@ export default function Body(){
     
     <div id="portfolio" className="body">
     <Fade bottom>
-    <h1 className="section-title portfolio-title"> PORTFOLIO </h1>
-        <Row className="split-feature-1 d-flex align-items-center">
+    <h1 className="section-title portfolio-title"> Portfolio </h1>
+
+    <Fade bottom>
+         <Row className="split-feature-1 d-flex align-items-center">
+            <Col>
+            <img
+                width={500}
+                className= "mx-auto d-block"
+                src={claraCover}
+                alt="mock up of theoretical app" />
+            </Col>
+
+            <Col className="project-description">
+                <h6> UX UI Designer//Product Designer </h6>
+                <h4> CLARA </h4>
+                <p> Your guide to recycle smarter, not harder. </p>
+                <a className="case-study-link" href="https://www.behance.net/gallery/112080673/CLARA-UXUI-Case-study" target="_blank" rel="noreferrer"> Meet CLARA ♻️ </a>
+            </Col>
+        </Row>
+        </Fade>
+
+        <Fade bottom>
+        <Row className="split-feature-2 d-flex flex-row-reverse align-items-center">
         <Col >
             <img
-                width={350}
-                height={201}
+                width={500}
                 className= "mx-auto d-block"
                 src={avidplayMockupResized}
                 alt="Website on a Macbook and an iPhone" />
@@ -30,7 +52,7 @@ export default function Body(){
                 <h6> UX//Content Strategy </h6>
                 <h4>Dolby x AvidPlay</h4>
                 <p>
-                Lead UX and content strategy for co-branded marketing campaign for the launch of new Dolby enabled music mixing tool on professional.dolby.com.
+                Led UX and content strategy for co-branded marketing campaign for the launch of new Dolby enabled music mixing tool on professional.dolby.com.
                 </p>
                 <Link to={"/Avidplay"} className="case-study-link"> 
                     See More 🎧 
@@ -40,36 +62,13 @@ export default function Body(){
         </Fade>
 
         <Fade bottom>
-         <Row className="split-feature-2 flex-row-reverse d-flex align-items-center">
-            <Col>
-            <img
-                width={350}
-                height={233}
-                className= "mx-auto d-block"
-                src={impossibleBurgerResized}
-                alt="Burgers made from the Impossible Burger meat on a vibrant background" />
-            </Col>
-
-            <Col className="project-description">
-                <h6> Consumer Behavior//User Analysis </h6>
-                <h4> Impossible Foods </h4>
-                <p>
-                Analyzed consumer behavior patterns and designed data-driven consumer focused strategy to convince meat eaters to try Impossible Burger for competitive course project.</p>
-                <a className="case-study-link" href={impossibleFoodsPresentation} target="_blank" rel="noreferrer"> Read About It 🍔 </a>
-            </Col>
-        </Row>
-        </Fade >
-
-
-        <Fade bottom>
         <Row className="split-feature-3 d-flex align-items-center">
         <Col >
             <img
-                width={350}
-                height={188}
+                width={500}
                 className= "mx-auto d-block"
                 src={thoughtcloud}
-                alt="test 3" />
+                alt="image of logo on MacBook Pro" />
         </Col>
 
             <Col className="project-description">
@@ -80,7 +79,7 @@ export default function Body(){
             </Col>
         </Row>
         </Fade> 
-        
+    </Fade> 
     </div>
     )
 }

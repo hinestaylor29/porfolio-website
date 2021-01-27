@@ -9,7 +9,7 @@ export default function Coding(){
     return(
     <Fade bottom>
     <div className="coding" id="coding">
-        <h1 className="section-title" > CODING PROJECTS </h1>
+        <h1 className="section-title" > Coding projects </h1>
         <p className="coding-description col-10"> 💡 While staying inside during quarantine, 
         I thought I would learn a few front-end programming languages. 
         Here are a two projects I built during my learning process. </p>
@@ -17,7 +17,7 @@ export default function Coding(){
     <card style={{ width: '400px' }} className="card-1">
             <Card.Body>
             <h5 className="card-title"> Weather App </h5>
-            <h6 className="mb-2"> HTML, CSS, Vanilla JavaScript, Bootstrap </h6>
+            <h6 className="mb-2 text-muted"> HTML, CSS, Vanilla JavaScript, Bootstrap </h6>
             <p className="card-description">
                  Built a functional forecasting app using tools learned in workshop which includes utilizing API calls.
             </p>

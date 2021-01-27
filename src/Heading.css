@@ -3,18 +3,28 @@
     display: block;
 }
 
-.name-title{
+.name-pitch{
     margin-top: 200px;
     margin-bottom: 0px;
 }
 
-.title{
-    margin: 20px 0px 20px 0px;
+.name{
+    font-family: 'Karla', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: .2rem;
+    padding-left: 0px;
+    padding-bottom: 15px;
+
 }
 
-.name{
-font-family: 'Poppins', sans-serif;
-color: #B5838D;
-font-weight: 700;
-letter-spacing: .2rem;
+.name-pitch p{
+    padding-left: 0px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+#name{
+    color: #fdb827;
 }

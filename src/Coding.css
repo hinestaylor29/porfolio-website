@@ -40,11 +40,11 @@
 }
 
 .card-link{
-    color: #6D6875;
+    color: black;
 }
 
 .card-link:hover{
-    color: #B5838D;
+    color: #fdb827;
 }
 
 card{
