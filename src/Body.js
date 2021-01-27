@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Body.css";
 import avidplayMockupResized from "./avidplayMockupResized.png";
-import impossibleFoodsPresentation from "./impossibleFoodsPresentation.pdf";
-import impossibleBurgerResized from "./impossibleBurgerResized.jpg";
 import claraCover from "./clara_cover.png";
 
 import thoughtcloud from "./thoughtcloud.png";
@@ -68,7 +66,7 @@ export default function Body(){
                 width={500}
                 className= "mx-auto d-block"
                 src={thoughtcloud}
-                alt="image of logo on MacBook Pro" />
+                alt="logo on MacBook Pro" />
         </Col>
 
             <Col className="project-description">
