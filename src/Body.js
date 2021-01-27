@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Body.css";
 import avidplayMockupResized from "./avidplayMockupResized.png";
-import claraCover from "./clara_cover.png";
+import claraCover from "./clara_cover.jpg";
 
 import thoughtcloud from "./thoughtcloud.png";
 import Row from 'react-bootstrap/Row';
