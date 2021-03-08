@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Body.css";
-import avidplayMockupResized from "./avidplayMockupResized.png";
+import avidplayMock from "./avidplayMock.png";
 import claraCover from "./clara_cover.jpg";
-
 import thoughtcloud from "./thoughtcloud.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -21,7 +20,7 @@ export default function Body(){
          <Row className="split-feature-1 d-flex align-items-center">
             <Col>
             <img
-                width={500}
+                width={450}
                 className= "mx-auto d-block"
                 src={claraCover}
                 alt="mock up of theoretical app" />
@@ -34,15 +33,15 @@ export default function Body(){
                 <a className="case-study-link" href="https://www.behance.net/gallery/112080673/CLARA-UXUI-Case-study" target="_blank" rel="noreferrer"> Meet CLARA ♻️ </a>
             </Col>
         </Row>
-        </Fade>
+    </Fade>
 
         <Fade bottom>
         <Row className="split-feature-2 d-flex flex-row-reverse align-items-center">
         <Col >
             <img
-                width={500}
+                width={450}
                 className= "mx-auto d-block"
-                src={avidplayMockupResized}
+                src={avidplayMock}
                 alt="Website on a Macbook and an iPhone" />
         </Col>
 
@@ -63,7 +62,7 @@ export default function Body(){
         <Row className="split-feature-3 d-flex align-items-center">
         <Col >
             <img
-                width={500}
+                width={450}
                 className= "mx-auto d-block"
                 src={thoughtcloud}
                 alt="logo on MacBook Pro" />
@@ -78,7 +77,8 @@ export default function Body(){
         </Row>
         </Fade> 
     </Fade> 
-    </div>
+
+</div>
     )
 }
 

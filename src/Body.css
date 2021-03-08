@@ -4,6 +4,8 @@
 
 .split-feature-2{
     margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .split-feature-1 img{
@@ -11,9 +13,19 @@
     border-radius: 5px;
 }
 
+.split-feature-1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.split-feature-2 img{
+    box-shadow: 2px 2px 10px 6px rgb(189, 189, 189, .30);
+}
+
 .split-feature-3{
     margin-top: 125px;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-description{

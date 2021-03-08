@@ -8,6 +8,7 @@ import Resume from "./Resume";
 import Coding from "./Coding";
 import Contact from "./Contact";
 import Avidplay from './Avidplay';
+import Hackathons from './Hackathons';
 import ScrollToTop from './ScrollToTop';
 
 function App() {
@@ -30,7 +31,8 @@ const Home = () => (
       <Body />
       <Resume />
       <Coding />
-      < Contact />
+      <Hackathons />
+      <Contact />
     </Container>
 );
 
