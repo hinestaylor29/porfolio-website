@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Body.css";
-import avidplayMock from "./avidplayMock.png";
+import avidplayMockCompressed from "./avidplayMockCompressed.jpg";
 import claraCover from "./clara_cover.jpg";
 import thoughtcloud from "./thoughtcloud.png";
 import Row from 'react-bootstrap/Row';
@@ -41,7 +41,7 @@ export default function Body(){
             <img
                 width={450}
                 className= "mx-auto d-block"
-                src={avidplayMock}
+                src={avidplayMockCompressed}
                 alt="Website on a Macbook and an iPhone" />
         </Col>
 
