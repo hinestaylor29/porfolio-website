@@ -11,7 +11,7 @@ export default function Hackathons(){
     <Fade bottom>
         <div className="hackathons">
             <h1 className="section-title"> Hackathons </h1>
-            <p className="hackathons-description col-10"> 👩🏼‍💻 During the continued effort to stay inside, I decided to sign up for a few virtual hackathons. It was a an intense learning experience and a fun way to collaborate with others! Check out the projects I was able to work on below. </p>
+            <p className="hackathons-description col-10"> 👩🏼‍💻 During the continued effort to stay inside, I decided to sign up for a few virtual hackathons. It was an intense learning experience and a fun way to collaborate with others! Check out the projects I was able to work on below. </p>
         
         <Row>
         <Col>
