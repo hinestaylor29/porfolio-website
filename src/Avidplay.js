@@ -2,7 +2,6 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import dolbyPortals from "./dolbyPortals.png";
 import avidPlayFrame1 from "./avidPlayFrame1.png";
 import avidplayFrame2 from "./avidplayFrame2.png";
 import avidplayFrame3 from "./avidplayFrame3.png";
