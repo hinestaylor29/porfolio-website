@@ -15,7 +15,6 @@ export default function Avidplay(){
     return(
     <Container className="avidplay flex">
         <div className="avidplay-heading">
-            <img src={dolbyPortals} alt="Dolby Brand Logo" width={64} height={45} />
             <h1> Dolby x AvidPlay </h1>
             <h5> UX and Content Strategy </h5>
             <p> Case Study by Taylor Hines </p>
