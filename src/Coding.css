@@ -41,6 +41,7 @@
 
 .card-link{
     color: black;
+    font-weight: bolder;
 }
 
 .card-link:hover{
