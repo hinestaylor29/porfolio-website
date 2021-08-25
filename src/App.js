@@ -8,6 +8,7 @@ import Resume from "./Resume";
 import Coding from "./Coding";
 import Contact from "./Contact";
 import Avidplay from './Avidplay';
+import CLARA from './Clara';
 import Hackathons from './Hackathons';
 import ScrollToTop from './ScrollToTop';
 
@@ -18,6 +19,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/Avidplay" component={Avidplay}/>
+        <Route path="/CLARA" component={CLARA}/>
       </Switch>
       </ScrollToTop>
     </Router>

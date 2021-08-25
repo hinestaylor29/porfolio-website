@@ -13,9 +13,8 @@ export default function Body(){
     return(
     
     <div id="portfolio" className="body">
-    <Fade bottom>
     <h1 className="section-title portfolio-title"> Portfolio </h1>
-
+    
     <Fade bottom>
          <Row className="split-feature-1 d-flex align-items-center">
             <Col>
@@ -30,12 +29,12 @@ export default function Body(){
                 <h6> UX UI Designer//Product Designer </h6>
                 <h4> CLARA </h4>
                 <p> Your guide to recycle smarter, not harder. </p>
-                <a className="case-study-link" href="https://www.behance.net/gallery/112080673/CLARA-UXUI-Case-study" target="_blank" rel="noreferrer"> Meet CLARA ♻️ </a>
+                <a className="case-study-link" href={"/Clara"} target="_blank" rel="noreferrer"> Meet CLARA ♻️ </a>
             </Col>
         </Row>
     </Fade>
 
-        <Fade bottom>
+    <Fade bottom>
         <Row className="split-feature-2 d-flex flex-row-reverse align-items-center">
         <Col >
             <img
@@ -72,13 +71,12 @@ export default function Body(){
                 <h6> UX UI Designer//Product Designer </h6>
                 <h4>Coming soon: thoughtcloud</h4>
                 <p>
-                    My work at Thoughtcloud includes UX/UI design, developing user flows, iterating on low fidelity and high fidelity designs, and collaborating with the team to create new features for the platform. </p>
+                    My work at Thoughtcloud includes UX/UI design, developing user flows, iterating on low fidelity and high fidelity designs, and collaborating with the team to create new features for the platform. 
+                </p>
             </Col>
         </Row>
         </Fade> 
-    </Fade> 
-
 </div>
-    )
+)
 }
 

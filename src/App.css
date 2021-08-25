@@ -1,8 +1,8 @@
 .container{
     margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     margin-bottom: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
     color: black;
     line-height: 150%;
 }

@@ -8,15 +8,17 @@ import avidplayFrame3 from "./avidplayFrame3.png";
 import Fade from 'react-reveal/Fade';
 import bedroomRecordingStudio from "./bedroomRecordingStudio.png";
 import "./Avidplay.css";
+import Navigation from "./Navigation";
 
 export default function Avidplay(){
     
     return(
     <Container className="avidplay flex">
+    <Navigation />
         <div className="avidplay-heading">
             <h1> Dolby x AvidPlay </h1>
             <h5> UX and Content Strategy </h5>
-            <p> Case Study by Taylor Hines </p>
+            <p> Case study by Taylor Hines </p>
         </div>
 
         <Fade bottom>
@@ -46,7 +48,7 @@ export default function Avidplay(){
 
 
         <Fade bottom>
-         <Row className="flex-row-reverse user-persona d-flex align-items-center">
+        <Row className="flex-row-reverse user-persona d-flex align-items-center">
         <Col >
             <img
                 width={350}
@@ -100,7 +102,7 @@ export default function Avidplay(){
                 height={418}
                 className= "mx-auto d-block"
                 src={avidPlayFrame1}
-                alt="test" />
+                alt="artist recording music" />
         </Col>
 
             <Col>

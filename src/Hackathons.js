@@ -35,7 +35,7 @@ export default function Hackathons(){
 
         <Col>
             <div className="protothon">
-            <a href="https://devpost.com/software/sift-sachacks-iii-project" target="_blank" rel="noreferrer">
+            <a href="https://docs.google.com/presentation/d/1kryjPRuL4EiRepL9_cQdc1CDhfAl7s3n29HMuPkdCBY/edit?usp=sharing" target="_blank" rel="noreferrer">
                      <img
                     className= "protothon_img"
                     src={siftCover}
