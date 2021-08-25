@@ -29,7 +29,7 @@ export default function Body(){
                 <h6> UX UI Designer//Product Designer </h6>
                 <h4> CLARA </h4>
                 <p> Your guide to recycle smarter, not harder. </p>
-                <a className="case-study-link" href={"/Clara"} target="_blank" rel="noreferrer"> Meet CLARA ♻️ </a>
+                <a className="case-study-link" href={"https://www.behance.net/gallery/112080673/CLARA-UXUI-Case-study"} target="_blank" rel="noreferrer"> Meet CLARA ♻️ </a>
             </Col>
         </Row>
     </Fade>
