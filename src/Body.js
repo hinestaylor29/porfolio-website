@@ -19,10 +19,11 @@ export default function Body(){
          <Row className="split-feature-1 d-flex align-items-center">
             <Col>
             <img
-                width={450}
-                className= "mx-auto flex d-block"
+                width={400}
+                className= "mx-auto d-block"
                 src={claraCover}
-                alt="mock up of theoretical app" />
+                alt="mock up of theoretical app"
+                />
             </Col>
 
             <Col className="project-description">
@@ -38,7 +39,7 @@ export default function Body(){
         <Row className="split-feature-2 d-flex flex-row-reverse align-items-center">
         <Col >
             <img
-                width={450}
+                width={400}
                 className= "mx-auto flex d-block"
                 src={avidplayMockCompressed2}
                 alt="Website on a Macbook and an iPhone" />
@@ -61,7 +62,7 @@ export default function Body(){
         <Row className="split-feature-3 d-flex align-items-center">
         <Col >
             <img
-                width={450}
+                width={400}
                 className= "mx-auto flex d-block"
                 src={thoughtcloud}
                 alt="logo on MacBook Pro" />

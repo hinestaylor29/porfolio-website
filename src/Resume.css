@@ -18,4 +18,5 @@
 
 .resume h6 a:hover{
     color: #fdb827;
+    text-decoration: none;
 }

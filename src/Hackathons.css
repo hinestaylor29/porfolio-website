@@ -21,7 +21,7 @@ margin-right: auto;
 
 .protothon_img{
     display:block;
-    width: 100%;
+    width: 90%;
     box-shadow: 2px 2px 10px 6px rgb(189, 189, 189, .30);
     border-radius: 5px;
 }
@@ -30,7 +30,7 @@ margin-right: auto;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
     background: rgba(255, 209, 109, 1);
     color: black;
