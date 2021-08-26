@@ -20,7 +20,7 @@ export default function Body(){
             <Col>
             <img
                 width={450}
-                className= "mx-auto d-block"
+                className= "mx-auto flex d-block"
                 src={claraCover}
                 alt="mock up of theoretical app" />
             </Col>
@@ -39,7 +39,7 @@ export default function Body(){
         <Col >
             <img
                 width={450}
-                className= "mx-auto d-block"
+                className= "mx-auto flex d-block"
                 src={avidplayMockCompressed2}
                 alt="Website on a Macbook and an iPhone" />
         </Col>
@@ -62,7 +62,7 @@ export default function Body(){
         <Col >
             <img
                 width={450}
-                className= "mx-auto d-block"
+                className= "mx-auto flex d-block"
                 src={thoughtcloud}
                 alt="logo on MacBook Pro" />
         </Col>

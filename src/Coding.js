@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 export default function Coding(){
     return(
     <Fade bottom>
-    <div className="coding" id="coding">
+    <div className="coding flex" id="coding">
         <h1 className="section-title" > Coding projects </h1>
         <p className="coding-description col-10"> 💡 While staying inside during quarantine, 
         I thought I would learn a few front-end programming languages. 
